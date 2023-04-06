@@ -1,0 +1,199 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/*Header section start css*/
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image:
+  linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+  url('../images/donation1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-container {
+  text-align: center;
+  margin: auto;
+  padding: 100px 300px;
+}
+.banner h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 900;
+}
+.banner p {
+  margin-top: 5px;
+  color: #ffffff;
+  text-align: justify;
+}
+.link-button {
+  background-color: #ff6347;
+  color: #ffffff;
+  padding: 15px 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+/*Header section End css*/
+/*Donate section Today start css*/
+.donate-today {
+  text-align: center;
+  margin: auto;
+  padding: 50px 200px;
+}
+.donate-today h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.donate-today p {
+  text-align: justify;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.flex-container > div {
+  box-shadow: 10px 10px 40px #808080;
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  padding: 30px;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.border-color {
+  background-color: rgba(119, 52, 41, 0.2);
+  border: tomato solid;
+  color: tomato;
+}
+.input-donate {
+  text-align: center;
+  margin-top: 50px;
+}
+.other-amount {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+}
+hr {
+  width: 70%;
+  margin: auto;
+}
+/*Donate section Today End css*/
+/*Our Donate Plan Start css*/
+.our-donation {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 11%;
+}
+.with-divide h2 {
+  font-size: 20px;
+}
+.with-divide {
+  width: 30%;
+  padding: 2%;
+  margin: 2%;
+}
+.background1 {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+}
+.background2 {
+  background-color: rgba(102, 42, 91, 0.2);
+  border-radius: 5px;
+}
+.background3 {
+  background-color: rgba(216, 112, 147, 0.2);
+  border-radius: 5px;
+}
+.subscribe-button {
+  text-align: center;
+  background-color: rgba(161, 108, 150, 0.2);
+  padding: 50px;
+  background-size: cover;
+}
+.email {
+  background-color: rgba(80, 78, 78, 0.3);
+  color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+}
+/*Our Donate Plan End css*/
+/*Make Quick Donation Start css*/
+.quick-donation {
+  background-image: url(../images/donation11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  padding: 10px;
+  margin: 50px 0px;
+}
+.list-item {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px;
+  color: #000000;
+}
+.donation-header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #000000;
+  font-weight: 700;
+}
+.mail {
+  text-align: center;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: none;
+}
+input[type="text"],
+select {
+  text-align: center;
+  width: 50%;
+  color: #000000;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 20px;
+}
+.donation-link-button {
+  display: block;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background-color: #ff6347;
+}
+/*Make Quick Donation End css*/
+/*Footer css Start*/
+.footer {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer h2 {
+  color: #ff6347;
+  font-size: 40px;
+}
+/*Footer css End*/
